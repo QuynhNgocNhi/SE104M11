@@ -1,9 +1,9 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=0.1">
-        <title>Trang sản phẩm</title>
+        <title>Admin page Nong San Xanh</title>
         <link rel="stylesheet" href="fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="css/products.css">
+        <link rel="stylesheet" href="css/admin_product.css">
     </head>
 
 
@@ -12,37 +12,30 @@
         <div class="navigation">
             <ul>
                 <li>
-                    <a href="index.html">
-                        <span class="icon"><i class="  fas fa-home" aria-hidden="true"></i></span>
-                        <span  class="title"><h2>NONGSANXANH</h2></span>
+                    <a href="admin.html">
+                        <span class="icon"><i class="fas fa-users-cog"></i></span>
+                        <span  class="title"><h2>ADMIN</h2></span>
                     </a>
                 </li>
                 <br><br>
                 <li>
-                    <a href="index.html">
+                    <a href="admin.html">
                         <span class="icon"><i class="  fas fa-home" aria-hidden="true"></i></span>
                         <span  class="title">Trang chủ</span>
                     </a>
                 </li>
                 <li>
-                    <a class="isActive" href="#">
+                    <a  href="admin_product.html">
                         <span class="icon"><i class="fas fa-shopping-basket" aria-hidden="true"></i></span>
-                        <span  class="title">Quản lý nhà sản phẩm</span>
+                        <span  class="title">Quản lý nhà cung cấp</span>
                     </a>
                 </li>
                 <li>
-                    <a href="bill.html">
+                    <a href="#" class="isActive">
                         <span class="icon"><i class="fas fa-users" aria-hidden="true"></i></span>
-                        <span  class="title">Quản lý đơn hàng</span>
+                        <span  class="title">Quản lý bài đăng</span>
                     </a>
                 </li>
-                <li>
-                    <a href="inbox.html">
-                        <span class="icon"><i class="fas fa-comments"></i></span>
-                        <span  class="title">Trò chuyện</span>
-                    </a>
-                </li>
-
                 
     
             </ul>
@@ -58,62 +51,68 @@
                     </label>
                 </div>
                 <div class="user">
-                    <a href="profile.html"><img src="user.jpg"></a>
+                    <img src="user.jpg">
                 </div>
             </div>
           
             <div class="details">
                 <div class="product">
                     <div class="cardHeader">
-                        <h2>Sản Phẩm của bạn</h2>
-                        <a href="add_product.html" class="btn_them">+ Thêm sản phẩm mới</a>
-                        <a href="#" class="btn">View all</a>
+                        <h2>Bài đăng gần đây</h2>
                     </div>
                     <table >
                         <thead>
                             <tr>
                                 <td>Hình Ảnh</td>
-                                <td>Tên sản phẩm</td>
-                                <td>Giá bán</td>
+                                <td>Tên thương hiệu</td>
+                                <td>Ngày đăng</td>
                                 <td>Phân loại</td>
                                 <td>Mô tả</td>
-                                <td>Số lượng</td>
+                                <td>Hành động</td>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td><a href="info_product.html"><img src="img1.jpg"></a></td>
+                            <tr> 
+                                <td><a href="admin_Viewpost.html"><span><img src="img1.jpg"></span></a></td>
                                 <td>Bắp cải xanh</td>
-                                <td>20.000</td>
+                                <td>Ngày..</td>
                                 <td>Rau củ</td>
                                 <td>Bắp cải xanh tươi nhà trồng.</td>
-                                <td>10kg</td>
+                                <td>
+                                    <i class="fas fa-check-square" style="color: rgb(56, 199, 56);"></i>
+                                    <i class="fas fa-trash-alt" style="color: red; padding-left: 10px;"></i>
+                                </td>
                             </tr>
+                        
                             <tr>
-                                <td><span><img src="img2.jpg"></span></td>
+                                <td><a href="admin_Viewpost.html"><span><img src="img2.jpg"></span></a></td>
                                 <td>Bắp cải xanh</td>
-                                <td>20.000</td>
+                                <td>Ngày..</td>
                                 <td>Rau củ</td>
                                 <td>Bắp cải xanh tươi nhà trồng.</td>
-                                <td>10kg</td>
-                            </tr>
+                                <td>
+                                    <i class="fas fa-check-square" style="color: rgb(56, 199, 56);"></i>
+                                    <i class="fas fa-trash-alt" style="color: red; padding-left: 10px;"></i>
+                                </td>                            </tr>
                             <tr>
                                 <td><span><img src="img3.jpg"></span></td>
                                 <td>Bắp cải xanh</td>
-                                <td>20.000</td>
+                                <td>Ngày..</td>
                                 <td>Rau củ</td>
                                 <td>Bắp cải xanh tươi nhà trồng.</td>
-                                <td>10kg</td>
-                            </tr>
-                            <tr>
+                                <td>
+                                    <i class="fas fa-check-square" style="color: rgb(56, 199, 56);"></i>
+                                    <i class="fas fa-trash-alt" style="color: red; padding-left: 10px;"></i>
+                                </td>                            </tr>                            <tr>
                                 <td><span><img src="img4.jpg"></span></td>
                                 <td>Bắp cải xanh</td>
-                                <td>20.000</td>
+                                <td>Ngày..</td>
                                 <td>Rau củ</td>
                                 <td>Bắp cải xanh tươi nhà trồng.</td>
-                                <td>10kg</td>
-                            </tr> 
-                           
+                                <td>
+                                    <i class="fas fa-check-square" style="color: rgb(56, 199, 56);"></i>
+                                    <i class="fas fa-trash-alt" style="color: red; padding-left: 10px;"></i>
+                                </td>                            </tr>                           
                         </tbody>
                     </table>
                         <ul  class="pagination " >
@@ -158,6 +157,11 @@
             navigation.classList.toggle('active')
             main.classList.toggle('active')
         }
+        jQuery(document).ready(function($) {
+         $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
+    });
+});
     </script>
 </body>
 </html>

@@ -1,9 +1,9 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=0.1">
-        <title>Trang nhà cung cấp</title>
+        <title>Admin page Nong San Xanh</title>
         <link rel="stylesheet" href="fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/admin_home.css">
     </head>
 
 
@@ -13,36 +13,30 @@
             <ul>
                 <li>
                     <a  href="#">
-                        <span class="icon"><i class="  fas fa-home" aria-hidden="true"></i></span>
-                        <span  class="title"><h2>NONGSANXANH</h2></span>
+                        <span class="icon"><i class="fas fa-users-cog" aria-hidden="true"></i></span>
+                        <span  class="title"><h2>ADMIN</h2></span>
                     </a>
-                </li>
+                </li> 
+                
                 <br><br>
                 <li>
-                    <a class="isActive" href="index.html">
+                    <a class="isActive" href="admin.html">
                         <span class="icon"><i class="  fas fa-home" aria-hidden="true"></i></span>
                         <span  class="title">Trang chủ</span>
                     </a>
                 </li>
                 <li>
-                    <a href="products.html">
+                    <a href="admin_product.html">
                         <span class="icon"><i class="fas fa-shopping-basket" aria-hidden="true"></i></span>
-                        <span  class="title">Quản lý nhà sản phẩm</span>
+                        <span  class="title">Quản lý nhà cung cấp</span>
                     </a>
                 </li>
                 <li>
-                    <a href="bill.html">
+                    <a href="admin_post.html">
                         <span class="icon"><i class="fas fa-users" aria-hidden="true"></i></span>
-                        <span  class="title">Quản lý đơn hàng</span>
+                        <span  class="title">Quản lý bài đăng</span>
                     </a>
                 </li>
-                <li>
-                    <a href="inbox.html">
-                        <span class="icon"><i class="fas fa-comments"></i></span>
-                        <span  class="title">Trò chuyện</span>
-                    </a>
-                </li>
-            
                 
     
             </ul>
@@ -58,7 +52,7 @@
                     </label>
                 </div>
                 <div class="user">
-                    <a href="profile.html"><img src="user.jpg"></a>
+                    <img src="user.jpg">
                 </div>
             </div>
 
@@ -67,7 +61,7 @@
                 <div class="card">
                     <div>
                         <div class="numbers">1,042</div>
-                        <div class="cardName">Daily View</div> 
+                        <div class="cardName">Lượt truy cập Web</div> 
                     </div>     
                     <div class="iconBox"><i class="fas fa-eye"></i></div> 
                 </div>
@@ -83,7 +77,7 @@
                 <div class="card">
                     <div>
                         <div class="numbers">200</div>
-                        <div class="cardName">Sales</div> 
+                        <div class="cardName">Lượng người đăng ký</div> 
                     </div>
                     <div class="iconBox"><i class="fas fa-shopping-cart"></i></div>
                 </div>
@@ -100,85 +94,85 @@
             <div class="details">
                 <div class="recentOrders">
                     <div class="cardHeader">
-                        <h2>Recent Orders</h2>
+                        <h2>Danh sách Nhà cung cấp</h2>
                         <a href="#" class="btn">View all</a>
                     </div>
                     <table >
                         <thead>
                             <tr>
-                                <td>Name</td>
-                                <td>Price</td>
-                                <td>Payment</td>
-                                <td>Status</td>
+                                <td>Tên thương hiệu</td>
+                                <td>Thời gian đăng ký</td>
+                                <td>Mô tả</td>
+                                <td>Tình trạng</td>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>San pham 1 </td>
-                                <td>200.000</td>
-                                <td>Paid</td>
-                                <td><span class="status delivered">Delivered</span></td>
+                                <td>Nhà cung cấp 1 </td>
+                                <td>Ngày..</td>
+                                <td>Buôn bán mặt hàng..</td>
+                                <td><span class="status delivered">Đã duyệt</span></td>
                             </tr>
                             <tr>
-                                <td>San pham 2</td>
-                                <td>100.000</td>
-                                <td>Paid</td>
-                                <td><span class="status delivered">Delivered</span></td>
+                                <td>Nhà cung cấp 2 </td>
+                                <td>Ngày..</td>
+                                <td>Buôn bán mặt hàng..</td>
+                                <td><span class="status delivered">Đã duyệt</span></td>
                             </tr>
                             <tr>
-                                <td>San pham 3</td>
-                                <td>300.000</td>
-                                <td>Due</td>
-                                <td><span class="status inprogress">In Progress</span></td>
+                                <td>Nhà cung cấp 3 </td>
+                                <td>Ngày..</td>
+                                <td>Buôn bán mặt hàng..</td>
+                                <td><span class="status inprogress">Đang chờ</span></td>
                             </tr>
                             <tr>
-                                <td>San pham 4</td>
-                                <td>300.000</td>
-                                <td>Paid</td>
-                                <td><span class="status pending">Pending</span></td>
+                                <td>Nhà cung cấp 4 </td>
+                                <td>Ngày..</td>
+                                <td>Buôn bán mặt hàng..</td>
+                                <td><span class="status pending">Đang gửi lại yêu cầu</span></td>
                             </tr>
                             <tr>
-                                <td>San pham 5</td>
-                                <td>300.000</td>
-                                <td>Due</td>
-                                <td><span class="status return">Return</span></td>
+                                <td>Nhà cung cấp 5 </td>
+                                <td>Ngày..</td>
+                                <td>Buôn bán mặt hàng..</td>
+                                <td><span class="status return">Không duyệt</span></td>
                             </tr>
                             <tr>
-                                <td>San pham 6</td>
-                                <td>300.000</td>
-                                <td>Paid</td>
-                                <td><span class="status delivered">Delivered</span></td>
+                                <td>Nhà cung cấp 6 </td>
+                                <td>Ngày..</td>
+                                <td>Buôn bán mặt hàng..</td>
+                                <td><span class="status delivered">Đã duyệt</span></td>
                             </tr>
                             <tr>
-                                <td>San pham 7</td>
-                                <td>300.000</td>
-                                <td>Due</td>
-                                <td><span class="status inprogress">In Progress</span></td>
+                                <td>Nhà cung cấp 7 </td>
+                                <td>Ngày..</td>
+                                <td>Buôn bán mặt hàng..</td>
+                                <td><span class="status inprogress">Đang duyệt</span></td>
                             </tr>
                             <tr>
-                                <td>San pham 8</td>
-                                <td>300.000</td>
-                                <td>Due</td>
-                                <td><span class="status inprogress">In Progress</span></td>
+                                <td>Nhà cung cấp 8 </td>
+                                <td>Ngày..</td>
+                                <td>Buôn bán mặt hàng..</td>
+                                <td><span class="status inprogress">Đang duyệt</span></td>
                             </tr>
                             <tr>
-                                <td>San pham 9</td>
-                                <td>300.000</td>
-                                <td>Due</td>
-                                <td><span class="status inprogress">In Progress</span></td>
+                                <td>Nhà cung cấp 9 </td>
+                                <td>Ngày..</td>
+                                <td>Buôn bán mặt hàng..</td>
+                                <td><span class="status inprogress">Đang duệt</span></td>
                             </tr>
                             <tr>
-                                <td>San pham 10</td>
-                                <td>300.000</td>
-                                <td>Due</td>
-                                <td><span class="status delivered">Delivered</span></td>
+                                <td>Nhà cung cấp 10 </td>
+                                <td>Ngày..</td>
+                                <td>Buôn bán mặt hàng..</td>
+                                <td><span class="status delivered">Đã duyệt</span></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="recentCustomers">
                     <div class="cardHeader">
-                         <h2>Recent Customers</h2>
+                         <h2>Nhà cung cấp nổi bật</h2>
                      </div>
                     <table>
                         <tbody>
