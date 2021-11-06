@@ -8,7 +8,7 @@
 //3. Every branch has a folder that contains 1 .html file, 1 .css file, 1. js file,... or else
 //4. Add these link to your <head></head> before your css link.
 <!-- Template CSS -->
- <link rel="stylesheet" href="assets/css/mainf195.css?v=2.1" /> #ff5e00
+ <link rel="stylesheet" href="assets/css/mainf195.css?v=2.1" /> 
 
 
 
