@@ -1,0 +1,68 @@
+
+@media (min-width : 740px) and (max-width : 1113px){
+    .shop-header{
+        height: 320px;
+        
+    }
+    .page-ruler{
+        height: 900px;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .shop-page-ruler__img{
+        width: 100%;
+        height: 600px;
+        mask: rgba(0,0,0,0.5);
+        
+    }   
+
+    .shop-primary-sidebar {
+        display: block;
+        width: 250px;
+        z-index: 5;
+        border:  2px var(--primary-color)  solid;
+        top: 0;
+        bottom:0;
+        position:fixed;
+        overflow-y:scroll;
+        border-radius: 5px;
+        
+        
+
+    }
+}
+
+
+
+@media (max-width: 739px) {
+    .shop-header{
+        height: 440px;
+        
+    }
+
+    .page-ruler{
+        height: 800px;
+       
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shop-primary-sidebar {
+        display: block;
+        width: 220px;
+        position: fixed;
+        z-index: 5;
+        border:  2px var(--primary-color)  solid;
+        top: 0;
+        bottom:0;
+        position:fixed;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        background-color: white;
+        border-radius: 5px;
+        
+        
+
+    }
+}
