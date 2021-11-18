@@ -1,0 +1,46 @@
+
+
+
+@media (min-width : 740px) and (max-width : 1113px){
+   
+    .provider-primary-sidebar {
+        display: block;
+        width: 250px;
+        z-index: 5;
+        border:  2px var(--primary-color)  solid;
+        top: 0;
+        bottom:0;
+        position:fixed;
+        overflow-y:scroll;
+        background-color: white;
+        border-radius: 5px;
+        
+        
+
+    }
+}
+
+
+
+@media (max-width: 739px) {
+    
+
+    
+    .provider-primary-sidebar {
+        display: block;
+        width: 220px;
+        position: fixed;
+        z-index: 5;
+        border:  2px var(--primary-color)  solid;
+        top: 0;
+        bottom:0;
+        position:fixed;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        background-color: white;
+        border-radius: 5px;
+        
+        
+
+    }
+}
